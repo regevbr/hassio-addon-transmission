@@ -6,7 +6,7 @@ declare openvpn_username
 declare openvpn_password
 
 if bashio::config.true 'openvpn_enabled'; then
-
+  sysctl -w net.ipv6.conf.all.disable_ipv6=1
   openvpn_config=$(bashio::config 'openvpn_config')
 
   cp "/config/openvpn/${openvpn_config}.ovpn" /etc/openvpn/config.ovpn
