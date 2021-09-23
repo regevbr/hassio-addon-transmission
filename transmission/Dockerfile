@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:10.1.0
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:10.1.0
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -51,9 +51,9 @@ LABEL \
     org.label-schema.description="The torrent client for Hass.io" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="Transmission" \
-    org.label-schema.schema-version="1.0" \
-    org.label-schema.url="https://github.com/pierrickrouxel" \
-    org.label-schema.usage="https://github.com/pierrickrouxel/hassio-addon-transmission/tree/master/README.md" \
+    org.label-schema.schema-version="2.0" \
+    org.label-schema.url="https://github.com/regevbr" \
+    org.label-schema.usage="https://github.com/regevbr/hassio-addon-transmission/tree/master/README.md" \
     org.label-schema.vcs-ref=${BUILD_REF} \
-    org.label-schema.vcs-url="https://github.com/pierrickrouxel" \
+    org.label-schema.vcs-url="https://github.com/regevbr" \
     org.label-schema.vendor="Community Hass.io Addons"
