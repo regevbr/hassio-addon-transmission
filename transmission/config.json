@@ -3,7 +3,7 @@
     "version": "dev",
     "slug": "transmission",
     "description": "The torrent client for Hass.io with OpenVPN support",
-    "url": "https://github.com/pierrickrouxel/hassio-addon-transmission",
+    "url": "https://github.com/regevbr/hassio-addon-transmission",
     "webui": "http://[HOST]:[PORT:9091]/transmission/web/",
     "startup": "services",
     "ingress": "true",
